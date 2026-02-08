@@ -1,0 +1,39 @@
+@font-face {
+    font-family: cmutbtl;
+    src: url("CMU Typewriter Text/cmunbtl.ttf");
+}
+
+@font-face {
+    font-family: cmutbto;
+    src: url("CMU Typewriter Text/cmunbto.ttf");
+}
+
+@font-face {
+    font-family: cmunit;
+    src: url("CMU Typewriter Text/cmunit.ttf");
+}
+
+@font-face {
+    font-family: cmuntb;
+    src: url("CMU Typewriter Text/cmuntb.ttf");
+}
+
+@font-face {
+    font-family: cmuntt;
+    src: url("CMU Typewriter Text/cmuntt.ttf");
+}
+
+@font-face {
+    font-family: cmuntx;
+    src: url("CMU Typewriter Text/cmuntx.ttf");
+}
+
+@font-face {
+    font-family: cmunvi;
+    src: url("CMU Typewriter Text/cmunvi.ttf");
+}
+
+@font-face {
+    font-family: cmunvt;
+    src: url("CMU Typewriter Text/cmunvt.ttf");
+}
