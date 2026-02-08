@@ -1,10 +1,12 @@
+/* CMU TYPEWRITER FONT */
+
 @font-face {
-    font-family: cmutbtl;
+    font-family: cmunbtl;
     src: url("CMU Typewriter Text/cmunbtl.ttf");
 }
 
 @font-face {
-    font-family: cmutbto;
+    font-family: cmunbto;
     src: url("CMU Typewriter Text/cmunbto.ttf");
 }
 
@@ -36,4 +38,27 @@
 @font-face {
     font-family: cmunvt;
     src: url("CMU Typewriter Text/cmunvt.ttf");
+}
+
+
+/* APERCU MONO FONT */
+
+@font-face {
+    font-family: apercu-regular;
+    src: url(apercu-mono-pro-cufonfonts/ApercuMonoProRegular.ttf);
+}
+
+@font-face {
+    font-family: apercu-medium;
+    src: url(apercu-mono-pro-cufonfonts/ApercuMonoProMedium.ttf);
+}
+
+@font-face {
+    font-family: apercu-light;
+    src: url(apercu-mono-pro-cufonfonts/ApercuMonoProLight.ttf);
+}
+
+@font-face {
+    font-family: apercu-bold;
+    src: url(apercu-mono-pro-cufonfonts/ApercuMonoProBold.ttf);
 }
