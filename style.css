@@ -24,16 +24,16 @@ nav {
     /* justify-content: center; */
 }
 
-.logo {
-    /* border: 2px solid yellow; */
+/* .logo {
+    border: 2px solid yellow;
     width: 10%;
     height: 100%;
-}
+} */
 
 .anchors {
     height: 100%;
     /* border: 2px solid rgb(243, 134, 152); */
-    width: 90%;
+    width: 100%;
     display: flex;
 }
 
@@ -51,14 +51,15 @@ nav {
     /* border: 2px solid red; */
 }
 
-.anchors ul li a{
+.anchors ul li a {
     text-decoration: none;
     list-style: none;
     color: white;
     font-family: 'cmuntt';
     font-size: 25px;
 }
-main{
+
+main {
     display: flex;
     height: 80%;
     /* border: 2px solid salmon; */
@@ -67,43 +68,74 @@ main{
     gap: 50px;
 }
 
-main aside{
+main aside {
     width: 30%;
     height: 70%;
     /* border: 2px solid red; */
 }
 
-main aside{
+main aside {
     background: url(pfp0.jpg);
     background-size: cover;
     border-radius: 10%;
 }
 
-main article{
-    /* border: 2px solid red; */
+main article {
+    border: 2px solid red;
     width: 40%;
     height: 70%;
     color: white;
-    font-family: "cmuntt";
+    font-family: "cmuntb";
 }
-main article span{
+
+main article span {
     font-size: 18px;
 }
-main article h1{
-    color: green;
-}
-.spn1{
-    display:inline-block;
+
+main article h1 {
+
+    display: inline;
     color: green;
 }
 
-footer{
+.spn0 {
+    /* border: 2px solid red; */
+    font-family: 'cmuntt';
+    font-size: 30px;
+    display: inline;
+}
+
+.just {
+    padding-left: 5px;
+    display: block;
+}
+
+.spn1 {
+    display: inline;
+    color: green;
+}
+
+.spn2 {
+    padding-left: 5px;
+    display: block;
+}
+
+.spn3 {
+    text-align: start;
+    padding-left: 5px;
+    display: block;
+}
+.spn5{
+    padding-left: 25px;
+}
+
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-footer button{
+footer button {
     font-size: 25px;
     font-family: 'cmuntt';
     background: none;
