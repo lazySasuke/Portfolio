@@ -118,7 +118,6 @@ main article {
     padding-left: 22px;
 }
 
-
 footer {
     display: flex;
     justify-content: space-around;
@@ -134,5 +133,4 @@ footer button {
     border: none;
     text-underline-offset: 15px;
     text-decoration: underline dashed white 3px;
-
 }
