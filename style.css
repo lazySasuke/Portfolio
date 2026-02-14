@@ -62,7 +62,7 @@ nav {
 main {
     display: flex;
     height: 80%;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -71,20 +71,53 @@ main {
 main aside {
     width: 20%;
     height: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url(pfp0.jpg);
     background-size: cover;
     border-radius: 10%;
+    align-self: start;
+    margin-top: 80px;
 }
 
-
 main article {
-    border: 2px solid red;
+    border-right: 3px solid rgba(150, 142, 142, 0.116);
+    border-bottom: 2px solid rgba(150, 142, 142, 0.116);
+    border-left: 1px solid rgba(150, 142, 142, 0.116);
     width: 40%;
-    height: 70%;
+    height: 70%;    
     color: white;
     font-family: "cmuntb";
 }
+
+.name{
+    background-color: rgba(150, 142, 142, 0.116);
+    margin-bottom: 5px;
+    /* border: 2px solid red; */
+}
+
+.bracs{
+    color: grey;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.heading{
+    color: green;
+    display: inline;
+}
+
+.arrow{
+    padding-left: 5px;
+    color: grey;
+}
+.learner{
+    color: green;
+}
+
+.spn3{
+    padding-left: 22px;
+}
+
 
 footer {
     display: flex;
