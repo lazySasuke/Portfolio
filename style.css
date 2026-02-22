@@ -73,42 +73,69 @@ main article {
     font-family: "cmuntb";
     align-self: start;
     margin-top: 80px;
-
-
+    /* border: 2px solid grey; */
 }
 
 .name {
+    /* border: 2px solid green; */
     margin-bottom: 5px;
 }
 
-.bracs {
+/* .bracs {
     color: grey;
     display: inline-block;
     font-size: 30px;
-}
+} */
 
 .heading {
     color: green;
     display: inline;
 }
 
+.heading::before {
+    content: '[ ';
+    color: grey;
+    font-family: cmuntt;
+    padding: 0;
+}
+
+.heading::after {
+    content: ' ]';
+    color: grey;
+    font-family: cmuntt;
+    padding: 0;
+}
+
+/* .about {
+    border: 2px solid dodgerblue;
+} */
+
+.arrow li:not(.learner){
+    display: flex;
+}
+
+
 .arrow {
-    padding-left: 5px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.arrow li::before {
+    content: "> ";
+    margin-right: 6px;
     color: grey;
 }
-
-.learner {
-    color: green;
+.learner{
+    display: inline;
 }
 
-.spn3 {
-    padding-left: 22px;
-}
-
-.socials {
-    text-decoration: none;
+.learner::after {
+    content:'learner';
     color: green;
-    letter-spacing: 5px;
+}
+.learner::after::after{
+    content: '.';
+    color: white;
 }
 
 footer {
