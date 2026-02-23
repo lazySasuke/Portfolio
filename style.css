@@ -106,14 +106,23 @@ main article {
     padding: 0;
 }
 
-/* .about {
-    border: 2px solid dodgerblue;
-} */
-
-.arrow li:not(.learner){
-    display: flex;
+.about {
+    font-size: 17px;
+    /* padding: 20px; */
+    /* border: 2px solid grey */
 }
 
+.arrow1 {
+    color: grey;
+}
+
+.learn {
+    color: green;
+}
+
+.arrow li:not(.learner) {
+    display: flex;
+}
 
 .arrow {
     list-style: none;
@@ -122,20 +131,41 @@ main article {
 
 .arrow li::before {
     content: "> ";
-    margin-right: 6px;
+    margin-right: 10px;
     color: grey;
 }
-.learner{
+
+.learner {
     display: inline;
 }
 
 .learner::after {
-    content:'learner';
+    content: 'learner';
     color: green;
 }
-.learner::after::after{
-    content: '.';
+
+.socials {
+    padding-left: 19px;
+}
+.arrow a{
+    padding: 0 0 0 5px;
+    /* border: 1px solid grey; */
+    text-decoration: none;
+}
+.git {
+    /* color: green; */
+    /* color: orange; */
+    letter-spacing: 5px;
     color: white;
+}
+
+.hub {
+    border-radius: 2px;
+    padding-left: 4px;
+    background-color: orange;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
 }
 
 footer {
