@@ -57,13 +57,14 @@ main {
 }
 
 main aside {
-    width: 20%;
-    height: 50%;
+    width: 16rem;
+    height: 16rem;
     background: url(pfp0.jpg);
     background-size: cover;
     border-radius: 10%;
     align-self: start;
     margin-top: 80px;
+    /* -webkit-back */
 }
 
 main article {
@@ -152,21 +153,11 @@ main article {
     /* border: 1px solid grey; */
     text-decoration: none;
 }
-.git {
-    /* color: green; */
-    /* color: orange; */
+.github{
+    color: green;
     letter-spacing: 5px;
-    color: white;
 }
 
-.hub {
-    border-radius: 2px;
-    padding-left: 4px;
-    background-color: orange;
-    color: black;
-    letter-spacing: 5px;
-    font-weight: bolder;
-}
 
 footer {
     display: flex;
