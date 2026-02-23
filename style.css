@@ -80,6 +80,7 @@ main article {
 .name {
     /* border: 2px solid green; */
     margin-bottom: 5px;
+    background-color: rgba(128, 128, 128, 0.13);
 }
 
 /* .bracs {
@@ -89,7 +90,7 @@ main article {
 } */
 
 .heading {
-    color: green;
+    color: rgb(2, 185, 2);
     display: inline;
 }
 
@@ -117,8 +118,8 @@ main article {
     color: grey;
 }
 
-.learn {
-    color: green;
+.learner {
+    color: rgb(2, 185, 2);
 }
 
 .arrow li:not(.learner) {
@@ -136,25 +137,23 @@ main article {
     color: grey;
 }
 
-.learner {
-    display: inline;
-}
-
-.learner::after {
-    content: 'learner';
-    color: green;
-}
-
 .socials {
     padding-left: 19px;
 }
-.arrow a{
+
+.arrow a {
     padding: 0 0 0 5px;
     /* border: 1px solid grey; */
     text-decoration: none;
+    color: white;
+    border-right: 5px solid ;
+    animation:
+        typing 2s steps(18),
+        cursor .4s step-end infinite alternate;
 }
-.github{
-    color: green;
+
+.github {
+    color: rgb(2, 185, 2);
     letter-spacing: 5px;
 }
 
@@ -174,4 +173,11 @@ footer button {
     border: none;
     text-underline-offset: 15px;
     text-decoration: underline dashed white 3px;
+}
+
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
 }
