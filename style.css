@@ -48,6 +48,17 @@ nav {
     font-size: 25px;
 }
 
+.anchors ul li a:hover,
+footer button:hover {
+    color: grey;
+}
+
+.anchors ul li a:active,
+footer button:active {
+    color: rgb(2, 185, 2);
+}
+
+
 main {
     display: flex;
     height: 80%;
@@ -146,7 +157,7 @@ main article {
     /* border: 1px solid grey; */
     text-decoration: none;
     color: white;
-    border-right: 5px solid ;
+    border-right: 5px solid grey;
     animation:
         typing 2s steps(18),
         cursor .4s step-end infinite alternate;
@@ -157,6 +168,11 @@ main article {
     letter-spacing: 5px;
 }
 
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
 
 footer {
     display: flex;
@@ -166,18 +182,12 @@ footer {
 
 footer button {
     font-size: 25px;
-    font-family: 'cmuntt';
+    font-family: 'cmunbtl';
     background: none;
     outline: none;
     color: white;
+    padding: 0 8px 5px 8px;
+    /*TLBR*/
     border: none;
-    text-underline-offset: 15px;
-    text-decoration: underline dashed white 3px;
-}
-
-
-@keyframes cursor {
-    50% {
-        border-color: transparent;
-    }
+    border-bottom: 3px dashed grey;
 }
