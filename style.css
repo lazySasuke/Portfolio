@@ -48,15 +48,18 @@ nav {
     font-size: 25px;
 }
 
+
+
 .anchors ul li a:hover,
 footer button:hover {
     color: grey;
 }
 
 .anchors ul li a:active,
-footer button:active {
+footer button:active{
     color: rgb(2, 185, 2);
 }
+
 
 
 main {
